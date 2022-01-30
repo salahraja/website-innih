@@ -13,22 +13,23 @@ const Home = () => {
 
   return (
     <>
-      <NextSeo title="Home" />
+      <NextSeo title="Salah's Portfolio" />
 
       <section data-testid="home-page">
-        <div className="flex flex-col items-center justify-center py-20">
+        <div className="flex flex-row items-center justify-between py-20">
           <h1 className="text-5xl font-bold text-center text-gray-800 dark:text-gray-100">
-            Salah's Portfolio
+            Salah&apos;s Portfolio
           </h1>
-
-          <button
-            className="px-4 py-2 mt-11 font-semibold text-white bg-black rounded-md dark:text-black text-xs dark:bg-white"
-            onClick={() => {
-              setTheme(resolvedTheme === "light" ? "dark" : "light");
-            }}
-          >
-            Change Theme
-          </button>
+          <div className="flex flex-col border-2 border-blue-500 pt-1">
+            <button
+              className="border-2 border-red-500 flex px-4 py-2 mt-11 font-semibold text-white bg-black rounded-md dark:text-black text-xs dark:bg-white"
+              onClick={() => {
+                setTheme(resolvedTheme === "light" ? "dark" : "light");
+              }}
+            >
+              Change Theme
+            </button>
+          </div>
         </div>
       </section>
     </>
