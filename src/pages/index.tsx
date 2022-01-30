@@ -18,11 +18,11 @@ const Home = () => {
       <section data-testid="home-page">
         <div className="flex flex-col items-center justify-center py-20">
           <h1 className="text-5xl font-bold text-center text-gray-800 dark:text-gray-100">
-            Next Themes + Tailwind Dark Mode
+            Salah's Portfolio
           </h1>
 
           <button
-            className="px-4 py-2 mt-16 font-semibold text-white bg-black rounded-md dark:text-black dark:bg-white"
+            className="px-4 py-2 mt-11 font-semibold text-white bg-black rounded-md dark:text-black text-xs dark:bg-white"
             onClick={() => {
               setTheme(resolvedTheme === "light" ? "dark" : "light");
             }}
