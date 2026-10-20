@@ -2,8 +2,6 @@
 
 <div align="center">
 
-<a href="https://next-js-tailwindcss-template.vercel.app/">View Demo</a>
-·
 <a href="https://github.com/imadatyatalah/next.js-tailwindcss-template/issues">Report Bug</a>
 ·
 <a href="https://github.com/imadatyatalah/next.js-tailwindcss-template/issues">Request Feature</a>
@@ -40,16 +38,12 @@ After a couple of Next.js projects, I found that I'm spending much time just to 
 - Dark Mode ready.
 - Supports absolute imports.
 - SEO friendly.
-- Self-hosted Inter font & cashed by [Vercel](https://vercel.com/).
+- Self-hosted Inter font.
 - Testing with Jest and React Testing Library.
 
 ### Screenshot
 
 ![Screenshot](./screenshot.png)
-
-## Deploy
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimadatyatalah%2Fnext.js-tailwindcss-template&demo-title=Next.js%20and%20TailwindCSS%20template.%20&demo-description=After%20a%20couple%20of%20Next.js%20projects%2C%20I%20found%20that%20I'm%20spending%20much%20time%20just%20to%20setup%20a%20new%20Next.js%20project%2C%20That's%20why%20I%20created%20this%20template%2C%20Fell%20free%20to%20use%20it%20and%20give%20me%20your%20feedback!&demo-url=https%3A%2F%2Fnext-js-tailwindcss-template.vercel.app&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fimadatyatalah%2Fnext.js-tailwindcss-template%2Fmain%2Fscreenshot.png)
 
 ## Getting Started
 
